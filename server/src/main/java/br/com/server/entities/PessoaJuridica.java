@@ -1,10 +1,11 @@
-package application.web.bootcampcielo.domain;
+package br.com.server.entities;
 import jakarta.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.*;
 
 @Entity
 public class PessoaJuridica {
+
     @Id
     @Size(min = 14, max = 14, message = "O CNPJ deve ter 14 dígitos")
     @Pattern(regexp = "^\\d{14}$", message = "O CNPJ deve conter apenas números")
@@ -27,4 +28,5 @@ public class PessoaJuridica {
 
     @Pattern(regexp = "^[a-zA-Z0-9_\\-\\.]+@[a-zA-Z0-9_\\-\\.]+\\.[a-zA-Z]{2,5}$", message = "O email do contato não é válido")
     private String emailContato;
+
 }

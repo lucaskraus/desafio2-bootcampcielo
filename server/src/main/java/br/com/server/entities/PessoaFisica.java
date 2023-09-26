@@ -1,10 +1,13 @@
-package application.web.bootcampcielo.domain;
+package br.com.server.entities;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.*;
 
 @Entity
 public class PessoaFisica {
+
     @Id
     @Size(min = 11, max = 11, message = "O CPF deve ter 11 dígitos")
     @Pattern(regexp = "^\\d{11}$", message = "O CPF deve conter apenas números")
@@ -19,4 +22,5 @@ public class PessoaFisica {
 
     @Pattern(regexp = "^[a-zA-Z0-9_\\-\\.]+@[a-zA-Z0-9_\\-\\.]+\\.[a-zA-Z]{2,5}$", message = "O email não é válido")
     private String email;
+
 }
