@@ -1,5 +1,5 @@
 package br.com.server.entities;
-import jakarta.persistence.Entity;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.*;
 
