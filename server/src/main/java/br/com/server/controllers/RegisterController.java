@@ -13,10 +13,11 @@ import br.com.server.entities.PessoaJuridica;
 import br.com.server.properties.PessoaFisicaRepository;
 import br.com.server.properties.PessoaJuridicaRepository;
 
-@RestController
-@RequestMapping("/cadastro")
-public class RegisterController {
 
+@RestController
+@RequestMapping("/cielo")
+public class RegisterController {
+	
     private final PessoaFisicaRepository pessoaFisicaRepository;
     private final PessoaJuridicaRepository pessoaJuridicaRepository;
 
@@ -26,9 +27,10 @@ public class RegisterController {
         this.pessoaJuridicaRepository = pessoaJuridicaRepository;
     }
 
-    @PostMapping("/pessoafisica")
+    @PostMapping(path = "/cadastro/pessoafisica", consumes = "application/json")
     public ResponseEntity<String> cadastrarPessoaFisica(@RequestBody PessoaFisica pessoaFisica) {
         pessoaFisicaRepository.save(pessoaFisica);
+        System.out.println(pessoaFisica);
         return ResponseEntity.status(HttpStatus.CREATED).body("Pessoa física cadastrada com sucesso!");
     }
 

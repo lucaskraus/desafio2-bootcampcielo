@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PessoaFisicaDTO {
-    private String nome;
     private String cpf;
     private String mcc;
+    private String nome;
     private String email;
 }
