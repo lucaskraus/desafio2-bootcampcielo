@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef } from 'react';
+import Axios from 'axios';
 
 
-const FormsCadastro = () => {
+const FormsCpf = () => {
+
     return(
-        <div className='formsCadastro'>
+        <div className='formsBox'>
             <form>
                 <label for='nome'>Nome do cliente</label>
                 <input type='text' id='nome'></input>
@@ -17,10 +19,11 @@ const FormsCadastro = () => {
                 <label for='mcc'>Código MCC</label>
                 <input type='text' id='mcc'></input>
             </form>
+
             <button type='submit'>Cadastrar Cliente</button>
         </div>
         
     )
 }
 
-export default FormsCadastro;
+export default FormsCpf;
