@@ -10,10 +10,6 @@ Obrigado, Cielo, pelo processo seletivo transparente. Hoje em dia, é muito raro
 
 <img width="450" height="200" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/ecab06c9-9b04-4003-98e7-ccf9f92f2eaf">
 
-# Sobre o Projeto
-
-Infelizmente, não foi possível finalizar todos os requisitos do projeto a tempo durante essa semana. Entretanto, acredito que o projeto esteja muito bem desenvolvido e com ideias bacanas na abordagem dos dados, UI, UX e estrutura web. <br/>
-
 # Configuração de Ambiente
 
 > [!WARNING]
@@ -47,4 +43,7 @@ Sequencialmente, execute:
 [localhost:3000/fila/clientes](https://localhost:3000/fila/clientes) - Rota para exibição da fila dos clientes que foram pré-cadastrados. <br/>
 [localhost:3000/fila/empresas](https://localhost:3000/fila/empresas) - Rota para exibição da fila das empresas que foram pré-cadastrados.
 
+# Sobre o Projeto
+
+Infelizmente, não foi possível finalizar todos os requisitos do projeto a tempo durante essa semana. Entretanto, acredito que o projeto esteja muito bem desenvolvido e com ideias bacanas na abordagem dos dados, UI, UX e estrutura web. <br/>
 
