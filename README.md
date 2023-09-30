@@ -27,7 +27,7 @@ Sequencialmente, execute:
 
 *client.bat* - Inicia a aplicação React. <br/>
 
-<img width="178" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/92c22e2a-7538-482a-a491-81189e0c46e9">
+<img width="176" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/d4ada3d5-7b73-4070-8f95-67eee6cc86a6">
 
 *build.bat* - Configura as dependências da aplicação Maven. <br/>
 
