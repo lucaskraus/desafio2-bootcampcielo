@@ -22,7 +22,7 @@ const ListaClientes = () => {
   return (
     <div className="tabela-container">
         <img src={logocielo} alt="Logo da Cielo" width='240px' height='80px'></img>
-        <h1>Lista de Clientes</h1>
+        <h1>Lista de Clientes Pré-Cadastrados</h1>
         <div className="tabela-scroll">
             <table className="tabela-clientes">
             <thead>
