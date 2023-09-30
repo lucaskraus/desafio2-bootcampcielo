@@ -31,7 +31,7 @@ const ListaEmpresas = () => {
               <th>CNPJ</th>
               <th>Razão Social</th>
               <th>MCC</th>
-              <th>CPF do Contato</th> {/* Adicione esta linha para exibir o CPF do contato */}
+              <th>CPF do Contato</th>
               <th>Nome do Contato</th>
               <th>Email do Contato</th>
             </tr>
@@ -43,7 +43,7 @@ const ListaEmpresas = () => {
                 <td>{empresa.cnpj}</td>
                 <td>{empresa.razaoSocial}</td>
                 <td>{empresa.mcc}</td>
-                <td>{empresa.cpfContato}</td> {/* Adicione esta linha para exibir o CPF do contato */}
+                <td>{empresa.cpfContato}</td>
                 <td>{empresa.nomeContato}</td>
                 <td>{empresa.emailContato}</td>
               </tr>
