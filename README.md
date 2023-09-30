@@ -1,14 +1,14 @@
 # desafio2-bootcampcielo
 Repositório criado para a resolução do Desafio 2 do Bootcamp Cielo Dev em parceria com a Ada Tech <br/>
 
-Agradecimentos:
+Agradecimentos: <br/>
 Essas duas semanas foram incríveis! Foi um período de muita troca de informações e conhecimento. <br/>
 
 Obrigado, Ada Tech, por promover um bootcamp tão bacana com instrutores excelentes. Jaque e Michael foram extramamente solícitos e disponíveis para todas as dúvidas do desafio e eventuais ajudas com a implementação dos projetos. <br/>
 
 Obrigado, Cielo, pelo processo seletivo transparente. Hoje em dia, é muito raro vermos esse tipo de preocupação em informar a situação em que o candidato se encontra. Isso torna tudo mais prazeroso e nos deixa menos ansiosos pelos próximos passos. <br/>
 
-<img width="800" alt="500" src="[https://github.com/lucaskraus/desafio-bootcampcielo/assets/72233741/bdb5d8bb-ba11-4e33-8896-fdc07245026d](https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/bd33b1f6-df6e-44b6-b538-5ba2839e6196)"> https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/bd33b1f6-df6e-44b6-b538-5ba2839e6196
+<img width="800" alt="500" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/f18b1ecc-8c20-4b5e-a9e9-97a6513c576">
 
 # Sobre o Projeto
 
@@ -43,8 +43,8 @@ Sequencialmente, execute:
 # Rotas
 
 [localhost:3000/](https://localhost:3000/) - Rota default para verificação da build da aplicação React.<br/>
-[localhost:3000/cadastro](https://localhost:3000/cadastro) - Rota para cadastro de clientes e empresas. Os registros são feitos em um banco de dados SQL criado na AWS.
-[localhost:3000/fila/clientes](https://localhost:3000/fila/clientes) - Rota para exibição da fila dos clientes que foram pré-cadastrados.
+[localhost:3000/cadastro](https://localhost:3000/cadastro) - Rota para cadastro de clientes e empresas. Os registros são feitos em um banco de dados SQL criado na AWS. <br/>
+[localhost:3000/fila/clientes](https://localhost:3000/fila/clientes) - Rota para exibição da fila dos clientes que foram pré-cadastrados. <br/>
 [localhost:3000/fila/empresas](https://localhost:3000/fila/empresas) - Rota para exibição da fila das empresas que foram pré-cadastrados.
 
 
