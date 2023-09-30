@@ -1,0 +1,179 @@
+$blue: #017CEB;
+
+label{
+    display: block;
+    margin: 1vh;
+}
+
+.formsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formsArea{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    background: $blue;
+}
+
+.formsArea > * {
+    margin: auto;
+}
+
+.formsBox {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.inputBox {
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+}
+
+
+.inputBox .input {
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+    transition: 0.5s ease-in-out;
+}
+
+.inputBox .input:focus,
+.inputBox .input:valid {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.inputBox .input:focus ~ label,
+.inputBox .input:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.ilustrationArea{
+    display: flex;
+    height: 100vh;
+    width: 50vw;
+    border: solid black 1px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.ilustrationBox{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    margin: 15px;
+}
+
+.ilustrationBox, h1, h3{
+    color: black;
+}
+
+.ilustrationBox > img {
+    align-self: center;
+}
+
+#buttonSubmit {
+    margin: 2vh;
+    padding: 10px 20px; 
+    justify-content: center;
+    background-color: $blue;
+    color: white; 
+    border: none; 
+    border-radius: 4px;  
+    transition: background-color 0.3s ease; 
+    font-size: 14px; 
+}
+
+#buttonSubmit:hover {
+    background-color: black; 
+}
+
+#buttonChange {
+	display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+	padding: .75rem 1.25rem;
+	border-radius: 10px;
+	color: black;
+	font-size: 0.7rem;
+	transition: all .3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+        color: black;
+		border-radius: 10px;
+		z-index: -2;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		height: 100%;
+		background-color: darken($blue, 15%);
+		transition: all .3s;
+		border-radius: 10px;
+		z-index: -1;
+	}
+	&:hover {
+		color: #fff;
+		&:before {
+			width: 100%;
+		}
+	}
+}
+
+.tabela-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.tabela-clientes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+.tabela-clientes th, .tabela-clientes td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+  
+.tabela-clientes th {
+    background-color: #f2f2f2;
+}
+
+.tabela-scroll {
+    max-height: 70vh; 
+    overflow-y: auto;
+  }
