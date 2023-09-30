@@ -8,7 +8,7 @@ Obrigado, Ada Tech, por promover um bootcamp tão bacana com instrutores excelen
 
 Obrigado, Cielo, pelo processo seletivo transparente. Hoje em dia, é muito raro vermos esse tipo de preocupação em informar a situação em que o candidato se encontra. Isso torna tudo mais prazeroso e nos deixa menos ansiosos pelos próximos passos. <br/>
 
-<img width="800" alt="500" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/f18b1ecc-8c20-4b5e-a9e9-97a6513c576">
+<img width="800" height="500" alt="script client" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/f18b1ecc-8c20-4b5e-a9e9-97a6513c576">
 
 # Sobre o Projeto
 
