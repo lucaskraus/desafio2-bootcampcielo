@@ -1,6 +1,6 @@
 @echo off
 
-cd client\client
+cd client
 
 npm install & npm start react-app
 

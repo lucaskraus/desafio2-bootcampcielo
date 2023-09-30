@@ -1,4 +1,4 @@
 @echo off
 cd server
-mvn clean install -Pskip-runners 
+mvn clean install
 
