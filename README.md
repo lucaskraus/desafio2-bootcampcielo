@@ -8,7 +8,7 @@ Obrigado, Ada Tech, por promover um bootcamp tão bacana com instrutores excelen
 
 Obrigado, Cielo, pelo processo seletivo transparente. Nos dias de hoje, é muito raro vermos esse tipo de preocupação em informar a situação em que o candidato se encontra. Isso torna tudo mais prazeroso e nos deixa menos ansiosos pelos próximos passos. <br/>
 
-<img width="450" height="200" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/ecab06c9-9b04-4003-98e7-ccf9f92f2eaf">
+![image](https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/28c3b35e-7c71-4a79-bf06-d9bb300c80ba)
 
 # Configuração de Ambiente
 
@@ -21,20 +21,20 @@ Obrigado, Cielo, pelo processo seletivo transparente. Nos dias de hoje, é muito
 
 Foram criados três scripts, semelhantes ao desafio 1, para facilitar a execução do código nos computadores em que o mesmo será testado: <br/>
 
-<img width="158" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/8353c2e7-f26d-45cc-8219-933e0178f0e1">
+![image](https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/d9c110d5-d439-4c15-8b39-c855880f2613) <br/>
 
 Sequencialmente, execute:
 
 *client.bat* - Inicia a aplicação React. <br/>
 
-<img width="176" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/d4ada3d5-7b73-4070-8f95-67eee6cc86a6">
+![image](https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/01a512e5-7a5a-40b1-87ff-dbe0b8ac2d0a) <br/>
 
 *build.bat* - Configura as dependências da aplicação Maven. <br/>
 
-<img width="146" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/d00e21d7-b1ab-4556-9c26-64729634819c">
+![image](https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/b36c31da-481e-4784-82ad-2ace43ef0a58) <br/>
 
 *server.bat* - Executa o servidor Java para receber e enviar as solicitações. <br/>
-<img width="184" alt="image" src="https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/28489eaa-9618-4b70-b82d-0980708a6bfd">
+![image](https://github.com/lucaskraus/desafio2-bootcampcielo/assets/72233741/2cd3e441-8115-46d9-b720-cb17d4b2bfeb) <br/>
 
 # Rotas
 
